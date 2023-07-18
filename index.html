@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizky CV</title>
+    <link rel="icon" href="img/icon.jpg" />
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/4da45c7bdd.js"
+      crossorigin="anonymous"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo"><span>Rizky</span>Firdiansyah</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i class="fa-solid fa-bars"></i></a>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <section id="home" class="hero">
+      <div class="content">
+        <h2>Selamat Datang!</h2>
+        <h4>Halo Saya Rizky</h4>
+        <button>View Work</button>
+        <button>Hire Me</button>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+      <div class="row">
+        <div class="about-col-1">
+          <h1 class="sub-title">About <span>Me</span></h1>
+          <p>HTML</p>
+          <div class="skill">
+            <div class="skills html"></div>
+          </div>
+
+          <p>CSS</p>
+          <div class="skill">
+            <div class="skills css"></div>
+          </div>
+
+          <p>JavaScript</p>
+          <div class="skill">
+            <div class="skills js"></div>
+          </div>
+
+          <p>PHP</p>
+          <div class="skill">
+            <div class="skills php"></div>
+          </div>
+          <p>Python</p>
+          <div class="skill">
+            <div class="skills python"></div>
+          </div>
+        </div>
+        <div class="about-col-2">
+          <img src="img/profile.jpg" alt="profil" />
+          <div class="desk-about">
+            <h4>Rizky Firdiansyah</h4>
+            <h5>Web Developer.</h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit ut,
+              soluta optio tempora quam inventore repellat nostrum praesentium
+              numquam nisi? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Reiciendis, officia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- worl -->
+    <section id="work" class="work">
+      <div class="container">
+        <h1 class="sub-title-2">My Work</h1>
+        <div class="row-work">
+          <img src="img/Resto2.jpg" />
+          <div class="desk-project">
+            <h4>Resto</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex vero
+              maiores a obcaecati ipsam, fugiat quibusdam. Nesciunt repudiandae
+              deserunt voluptatum. Nulla est voluptatibus iusto impedit nam
+            </p>
+            <a href="https://github.com/RizkyFirdiansyah/Resto"
+              ><button>Github</button></a
+            >
+            <a href="https://rizkyfirdiansyah.github.io/Resto/"
+              ><button>Live Demo</button></a
+            >
+          </div>
+        </div>
+        <div class="row-work">
+          <img src="img/Travel.jpg" />
+          <div class="desk-project">
+            <h4>Travel</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex vero
+              maiores a obcaecati ipsam, fugiat quibusdam. Nesciunt repudiandae
+              deserunt voluptatum. Nulla est voluptatibus iusto impedit nam
+            </p>
+            <a href="https://github.com/RizkyFirdiansyah/Travel"
+              ><button>Github</button></a
+            >
+            <a href="https://rizkyfirdiansyah.github.io/Travel/"
+              ><button>Live Demo</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h1 class="sub-title-2">Contact <span>Me</span></h1>
+        <div class="row-contact">
+          <div class="contact-left">
+            <div class="desk-contact">
+              <h6>PHONE:</h6>
+              <p>+62 089-772-9991</p>
+            </div>
+            <div class="desk-contact">
+              <h6>ADDRESS:</h6>
+              <p>Jl. Dimana saja.</p>
+              <p>New York. USA</p>
+            </div>
+            <div class="desk-contact">
+              <h6>EMAIL:</h6>
+              <p>gmail@rizky.com</p>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required />
+              <textarea name="Message" rows="6" Your Message></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div class="copyright">
+          <div class="desk-contact">
+            <iconify-icon
+              icon="line-md:facebook"
+              width="40"
+              height="40"></iconify-icon>
+            <iconify-icon
+              icon="line-md:instagram"
+              width="40"
+              height="40"></iconify-icon>
+            <iconify-icon
+              icon="uil:youtube"
+              width="40"
+              height="40"></iconify-icon>
+            <iconify-icon
+              icon="line-md:twitter"
+              width="40"
+              height="40"></iconify-icon>
+          </div>
+          <p>
+            Copyright © 2023 . All rights reserved |
+            <a href="">Design by Rizky Firdiansyah</a>
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
